@@ -31,7 +31,25 @@
             <option value="over65">Over 65</option>
           </select>
         </div>
+        <div class="form-buttons">
+          <button type="button" id="genera">Genera</button>
+          <button type="reset" id="annulla">Annulla</button>
+        </div>
       </form>
+
+      <h2>IL TUO BIGLIETTO</h2>
+
+      <div id="risultato" class="biglietto hidden">
+        <p>
+          <strong>Nome Passeggero:</strong> <span id="nome-passeggero"></span>
+        </p>
+        <p><strong>Offerta:</strong> <span id="offerta"></span></p>
+        <p><strong>Carrozza:</strong> <span id="carrozza"></span></p>
+        <p><strong>Codice CP:</strong> <span id="codice-cp"></span></p>
+        <p>
+          <strong>Costo Biglietto:</strong> <span id="costo-biglietto"></span>
+        </p>
+      </div>
     </div>
 
     <script src="main.js"></script>
