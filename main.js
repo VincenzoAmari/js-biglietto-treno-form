@@ -29,6 +29,9 @@ document.getElementById("genera").addEventListener("click", function () {
   document.getElementById(
     "costo-biglietto"
   ).textContent = `€${prezzoFinale.toFixed(2)}`;
+
+  document.getElementById("risultato").classList.remove("hidden");
+  document.getElementById("TuoBiglietto").classList.remove("hidden");
 });
 
 // calcoloPrezzo();

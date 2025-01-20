@@ -73,3 +73,7 @@ button {
 .biglietto p {
   margin: 5px 0;
 }
+
+.hidden {
+  display: none;
+}
