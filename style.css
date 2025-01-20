@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #d90429;
+  background-color: #151125;
   color: white;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 .container {
   background-color: #fff;
-  color: #d90429;
+  color: #4e37b4;
   padding: 20px;
   border-radius: 8px;
   width: 400px;
@@ -43,4 +43,33 @@ select {
 .form-buttons {
   display: flex;
   justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#genera {
+  background-color: #4e37b4;
+  color: white;
+}
+
+#annulla {
+  background-color: #ddd;
+  color: #333;
+}
+
+.biglietto {
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.biglietto p {
+  margin: 5px 0;
 }
